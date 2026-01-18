@@ -1,6 +1,6 @@
 Md
 
-# My Web Page - Abdullah Munib
+# My-Web-Page - Abdullah Munib
 
 A simple, clean & responsive **My Web Page** built using **HTML and CSS**.
 I desinged this to show my social links, projects and contact information in one place.
