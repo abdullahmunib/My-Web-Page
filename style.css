@@ -1,0 +1,47 @@
+body{
+    background: #0f172a;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    object-fit: cover;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.link {
+    display: block;
+    background: #1e293b;
+    color: white;
+    padding: 15px;
+    margin: 12px 0;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: transform 0.25s ease, box-shadow 0.25s, background 0.25s;
+}
+
+.link:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.35);    
+    background: hwb(207 26% 24%);
+    color: black;
+}
+
+.link:active {
+    transform: scale(0.96);
+}
+
+* {
+    box-sizing: border-box;
+}
